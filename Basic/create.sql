@@ -11,15 +11,16 @@
 -- Create Database
 
 CREATE DATABASE DbName;
-    
+
 
 -- Create Table (Schema needed whenever we create table)
 
 CREATE TABLE students
 (
-    student_id INT PRIMARY KEY,
-    name VARCHAR(255),
-    major VARCHAR(255)
+    student_id INT AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    major VARCHAR(255) DEFAULT "Not Decided",
+    PRIMARY KEY(student_id)
 )
 
 
