@@ -4,7 +4,6 @@ INSERT INTO branch VALUES(1, 'Corporate', 100, '2006-02-09');
 
 
 INSERT INTO employee VALUES(101, 'Jan', 'Levinson', '1961-05-11', 'F', 110000, 100, 1);
-
 -- Scranton
 INSERT INTO employee VALUES(102, 'Michael', 'Scott', '1964-03-15', 'M', 75000, 100, NULL);
 
